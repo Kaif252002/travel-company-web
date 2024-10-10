@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nav Bar</title>
+    <link rel="stylesheet" href="./css/style.css" type="text/css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script>
+        function openMenu(){
+           if(document.getElementById("menu").style.display === "none"){
+            document.getElementById("menu").style.display="flex"
+           }else{
+                document.getElementById("menu").style.display="none"
+           }
+        }
+
+    </script>
+</head>
+<body>
+    <!--navigation bar -->
+     <div class="nav">
+        <div class="title">
+            <h1 class="nav-h1"><i class="fa-solid fa-location-dot" style="margin-right: 10px;"></i></i>Tourist</h1>
+        </div>
+        <div class="menus" id="menu">
+            <a href="#section1">Home</a>
+            <a href="#section2">About</a>
+            <a href="#section3">Services</a>
+            <a href="#section4">Destination</a>
+            <a href="#section5">Contact</a>
+            <button class="reg">Register</button>
+        </div>
+        
+        <button onclick="openMenu()"id="menu-btn"><i class="fa-solid fa-bars fa-2xl"></i></button>
+       
+     </div>
+
+     <!--Home-->
+     <div class="home" id="section1">
+        <div class="home-content">
+       <h2 class="home-h2">TOURIST_____ </h2>
+       <h1 class="home-h1">Enjoy Your <span >Trip With Us</span></h1>
+       <p class="p1">Tourist is the largest independently owned travel agency headquartered in California, and consistently ranked among the top 50 largest in the United States.
+       </p>
+       <p class="p1">We are an employee-owned company with a passion for providing exemplary customer service, leveraging our expertise and technology to deliver innovative travel solutions in a gratifying work environment.</p>
+       <p class="p1">We are an employee-owned company with a passion for providing exemplary customer service, leveraging our expertise and technology to deliver innovative travel solutions in a gratifying work environment.</p>
+
+       <div>
+        <button class="btn1">Read More</button>
+    </div>
+        </div>
+       <div>
+        <img src="./img/bg-hero.jpg" alt="image" class="img1"/>
+       </div>
+     </div>
+
+     <!--About-->
+     <div class="about" id="section2">
+        <div class="img2">
+        <img src="./img/destination-3.jpg" alt="image" class="img2"/>
+        </div>
+        <div class="abt-details">
+        <h2 class="about-h2">ABOUT US_____</h2>
+        <h1 class="about-h1">Welcome to <span>Tourist</span></h1>
+        <p class="p2">Tourist is the largest independently owned travel agency headquartered in California, and consistently ranked among the top 50 largest in the United States.
+        </p>
+        
+        <p class="p2">We are an employee-owned company with a passion for providing exemplary customer service, leveraging our expertise and technology to deliver innovative travel solutions in a gratifying work environment.
+        </p>
+       
+        <div class="list1">
+        <li><i class="fa-solid fa-arrow-right" id="icon"></i>First class Flight</li>
+     <li> <i class="fa-solid fa-arrow-right" id="icon"></i>5 star Accomodations</li>
+        <li><i class="fa-solid fa-arrow-right" id="icon"></i>150 premium city Tours</li>
+        </div>
+
+        <div class="list2">
+        <li><i class="fa-solid fa-arrow-right" id="icon"></i>Handpicked Hotels</li>
+        <li><i class="fa-solid fa-arrow-right" id="icon"></i>Latest Model Vehicles</li>
+        <li><i class="fa-solid fa-arrow-right" id="icon"></i>24/7 Services</li>
+        </div>
+
+        <button class="btn2">Read more</button>
+        </div>
+     </div>
+
+     <!--services-->
+
+     <div class="services" id="section3">
+        <div class="service-head">
+        <h2 class="service-h2">_____SERVICES_____</h2>
+        <h1 class="service-h1">Our Services</h1>
+        </div>
+        <div class="service-container">
+            <div class="worldwide">
+                <i class="fa-solid fa-globe fa-2xl"></i>
+                <h2>WorldWide Tours</h2>
+                <p class="p3">With trips on every continent, Tourist anywhere on this planet that you could possibly want to go, from popular destinations like the Amalfi Coast to well off-the-beaten-path adventures like Tajikistan.</p>
+            </div>
+                <div class="hotel">
+                    <i class="fa-solid fa-hotel fa-2xl"></i>
+                <h2>Hotel Reservation</h2>
+                <p class="p3">We’re Available Live 24/7 to Help. Don’t Get Stranded When Traveling! Book Now & Save Big at Tourist! Always The Lowest Price Guarantee.</p>
+            </div>
+            <div class="travel">
+                <i class="fa-solid fa-user fa-2xl"></i>
+                <h2>Travel Guides</h2>
+                <p class="p3">The best travel guides on World travel & tourism to explore the best of Incredible World tours along with affordable India tour packages. Get the best deals with Tourist.
+
+                </p>
+            </div>
+            <div class="event">
+                <i class="fa-solid fa-gear fa-2xl"></i>
+                <h2>Event Managements</h2>
+                <p class="p3">Event management is the process of planning and executing an event or an entire event program, from the beginning stages of planning to post-event reporting. we are provide best events.</p>
+            </div>
+        </div>
+     </div>
+
+     <!--destination-->
+
+     <div class="destination" id="section4">
+        <div class="destination-head">
+            <h2 class="destination-h2">_____DESTINATION_____</h2>
+            <h1 class="desti-h1">Popular Destination</h1>
+        </div>
+
+        <div class="destination-container">
+            <!--malaysia-->
+            <div class="malaysia">
+                <div class="destination-content">
+                    <h1 class="destination-h1">Malaysia</h1>
+                    <p class="destination-p">Malaysia is a popular travel destination but when many visitors think about where to visit in Malaysia, they settle for the big city of Kuala Lumpur and the beautiful beaches in Penang and on the island of Langkawi, leaving so many other best cities in Malaysia to visit.</p>
+                    <button class="destination-btn">35% OFF</button>
+                </div>
+                <div class= "destination-img">
+                <img src="./img/destination-2.jpg" alt="image" class="destination-img" />
+                </div>
+            </div>
+            <!--thailand-->
+            <div class="thailand">
+                <div class="destination-content">
+                    <h1 class="destination-h1">Thailand</h1>
+                    <p class="destination-p">Thailand's largest and most easily accessible island brings visitors in by the millions each year for its wide array of hotels, white-sand beaches, parties in Patong, colorful snorkeling, and eclectic culinary scene. Thailand’s second most popular island sits off the country’s eastern coast in the Gulf of Thailand.</p>
+                    <button class="destination-btn">30% OFF</button>
+                </div>
+                <div class="destination-img">
+                    <img src="./img/destination-1.jpg" alt="image" class="destination-img"/>
+                </div>
+            </div>
+
+            <!--indonesia-->
+            <div class="indonesia">
+                <div class="destination-content">
+                    <h1 class="destination-h1">Indonesia</h1>
+                    <p class="destination-p">Known to be the largest island nation in the world, Indonesia’s fame generally derives from the tourist Island Bali which is famous for its stunning beaches, extreme water sports, jungle landscapes. Apart from a few known cities like Jakarta, there are countless untouched islands across Indo-Oceania.</p>
+                    <button class="destination-btn">25% OFF</button>
+                </div>
+                <div class="destination-img">
+                    <img src="./img/destination-3.jpg" alt="image" class="destination-img"/>
+                </div>
+            </div>
+
+            <!--australia-->
+            <div class="australia">
+                <div class="destination-content">
+                    <h1 class="destination-h1">Australia</h1>
+                    <p class="destination-p">Known to be the largest island nation in the world, Indonesia’s fame generally derives from the tourist Island Bali which is famous for its stunning beaches, extreme water sports, jungle landscapes. Apart from a few known cities like Jakarta, there are countless untouched islands across Indo-Oceania.</p>
+                    <button class="destination-btn">20% OFF</button>
+                </div>
+                <div class="destination-img">
+                    <img src="./img/destination-4.jpg" alt="image" class="destination-img"/>
+                </div>
+            </div>
+
+            </div>
+        </div>
+
+     <!--contact-->
+
+     <footer class="footer" id="section5">
+        <div class="company">
+            <h1 class="contact-h1">  Company </h1>
+            <div class="company-menus">
+            <a href="#section1"><i class="fa-solid fa-angle-right" style="color: white; margin-right: 7px; " ></i></i>About us</a>
+            <a href="#section2"><i class="fa-solid fa-angle-right" style="color: white; margin-right: 7px; " ></i>Contact us</a>
+            <a href="#section3"><i class="fa-solid fa-angle-right" style="color: white; margin-right: 7px;" ></i>Privacy Policy</a>
+            <a href="#section4"><i class="fa-solid fa-angle-right" style="color: white; margin-right: 7px; " ></i>Terms & Condition</a>
+            <a href="#section5"><i class="fa-solid fa-angle-right" style="color: white;margin-right: 7px;" ></i>FAQs & help</a>
+            </div>
+
+        </div>
+        <div class="contact">
+            <h1 class="contact-h1">Contact</h1>
+            <h4><i class="fa-solid fa-location-dot" style="color: white;margin-right: 7px;  "></i>123 Street,New York</h4>
+            <h4><i class="fa-solid fa-phone" style="color:white; margin-right: 7px;"></i>+012 34567890</h4>
+            <h4><i class="fa-solid fa-envelope" style="color: white; margin-right: 7px;"></i>mail@domain.com</h4>
+            <div class="contact-icon">
+                <i class="fa-brands fa-twitter fa-lg" style="color: #f5f5f5;"></i>
+                <i class="fa-brands fa-facebook-f fa-lg" style="color: #f5f5f5;"></i>
+                <i class="fa-brands fa-youtube fa-lg" style="color: #f9fafa;"></i>
+                <i class="fa-brands fa-linkedin-in fa-lg" style="color: #f8f9fc;"></i>
+            </div>
+        </div>
+        <div class="map">
+            <h1 class="contact-h1">Location</h1>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387194.0622732494!2d-74.30932777004287!3d40.697019286161634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sin!4v1727930580379!5m2!1sen!2sin" id="iframe"></iframe>
+        </div>
+
+     </footer>
+
+     <div class="social-media">
+        <a href="https://api.whatsapp.com/send?phone=15551234567" target="_blank"> <img src="./img/WhatsApp_icon.png" class="wpimg"/></a>
+        <a href="https://www.facebook.com/sharer/sharer.php?u=#url" target="_blank"><img src="./img/facebook.png" class="wpimg"/></a>
+        <img src="./img/WhatsApp_icon.png"  class="wpimg"/>
+    </div>
+</body>
+
+</html>            
