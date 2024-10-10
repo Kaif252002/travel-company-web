@@ -416,7 +416,7 @@ i{
     }
     .worldwide, .hotel, .event, .travel{
         width: 350px;
-        height: 250px;
+        height: auto;
         overflow: hidden;
         margin: auto;
     }
